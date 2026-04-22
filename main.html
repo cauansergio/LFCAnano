@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LFCA.nano — Laboratório de Física & Nanomateriais</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+
+
+</head>
+<body>
+
+  <!-- ╔══════════════════════════════╗
+       ║          HEADER             ║
+       ╚══════════════════════════════╝ -->
+  <header id="header">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="#home" class="nav-logo">
+          <span class="nav-logo-main">LFCA.<span>nano</span></span>
+          <span class="nav-logo-sub">UFPA · Campus Abaetetuba</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#pesquisas">Pesquisas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <button class="nav-burger" id="burger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+
+      <div class="nav-mobile" id="mobileMenu">
+        <a href="#home"      onclick="closeMenu()">Home</a>
+        <a href="#sobre"     onclick="closeMenu()">Sobre</a>
+        <a href="#pesquisas" onclick="closeMenu()">Pesquisas</a>
+        <a href="#contato"   onclick="closeMenu()">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ╔══════════════════════════════╗
+       ║            HERO             ║
+       ╚══════════════════════════════╝ -->
+  <section id="home">
+    <div class="hero-orb-2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Laboratório de Física & Nanomateriais · Abaetetuba · Pará</div>
+        <h1 class="hero-title">
+          A <em> Amazônia </em><br>
+          na palma da sua <br>
+          <span class="accent">mão.</span>
+        </h1>
+        <p class="hero-sub">
+          Pesquisas em física e nanomateriais, unindo excelência acadêmica, 
+          tecnologia avançada e compromisso com o desenvolvimento regional da Amazônia.
+        </p>
+        <div class="hero-actions">
+          <a href="#pesquisas" class="btn btn-primary">Nossas Pesquisas</a>
+          <a href="#sobre"     class="btn btn-outline">Conheça o Lab</a>
+          <a href="nossaequipe.html" class="btn btn-secondary">Nossa Equipe</a>
+          <a href="biblioteca.html" class="btn btn-terciary">Biblioteca</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Role</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║            SOBRE            ║
+       ╚══════════════════════════════╝ -->
+  <section id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+
+        <div class="sobre-visual reveal">
+          <div class="sobre-box">
+            <img src="src/image/nós.jpeg" alt="">
+            <div class="sobre-box-icon"></div>
+          </div>
+          <div class="sobre-badge">
+            <span class="sobre-badge-num">3+</span>
+            <span class="sobre-badge-lbl">Anos de<br>Pesquisa</span>
+          </div>
+        </div>
+
+        <div class="sobre-text reveal">
+          <div class="section-label">Sobre o Laboratório</div>
+          <h2 class="section-title">Fronteira do conhecimento em nanociência</h2>
+          <p class="section-desc">
+            O <strong>LFCA.nano</strong>, possui um espaço físico estruturado para a síntese de Nano-materiais
+             e Nano-compósitos com ênfase no desenvolvimentos de sensores e 
+             sistemas integrados com nanotecnologia .
+             O espaço contribui para a formação de humanos em nanociência
+              e nanotecnologia ( IC, TCCs e Mestrados ) permitindo aumentar e consolidar o número de colaborações nacionais e internacionais..
+          </p>
+          <p class="section-desc" style="margin-top:1rem;">
+            Contamos com infraestrutura de caracterização, equipe multidisciplinar 
+            e colaborações nacionais e internacionais que nos permitem publicar ciência de alto impacto.
+          </p>
+
+          <div class="sobre-stats">
+            <div class="stat-item">
+              <div class="stat-num">12+</div>
+              <div class="stat-lbl">Publicações científicas</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">6</div>
+              <div class="stat-lbl">Pesquisadores ativos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">10</div>
+              <div class="stat-lbl">Projetos em curso</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║          PESQUISAS          ║
+       ╚══════════════════════════════╝ -->
+  <section id="pesquisas">
+    <div class="container">
+      <div class="pesquisas-header reveal">
+        <div>
+          <div class="section-label">Áreas de Atuação</div>
+          <h2 class="section-title">O que pesquisamos</h2>
+        </div>
+        <a href="#contato" class="btn btn-outline" style="border-color:var(--teal-400);color:var(--teal-700);">
+          Colabore conosco
+        </a>
+      </div>
+
+      <div class="cards-grid">
+
+        <div class="area-card reveal">
+          <div class="card-icon">🔬</div>
+          <div class="card-title">Síntese de Nano-materiais</div>
+          <p class="card-desc">Síntese e caracterização de nanopartículas Bimetálicas de Níquel para a produção de Energia.</p>
+          <div class="card-tags">
+            <span class="ctag">Fe₃O₄</span>
+            <span class="ctag">XRD</span>
+            <span class="ctag">TEM</span>
+            <span class="ctag">VSM</span>
+          </div>
+        </div>
+
+        <div class="area-card reveal" style="transition-delay:.1s">
+          <div class="card-icon">⚛️</div>
+          <div class="card-title">Síntese de Vanadatos de Cromo</div>
+          <p class="card-desc">texto básico sobre a síntese de vanadatos de cromo.</p>
+          <div class="card-tags">
+            <span class="ctag">Raman</span>
+            <span class="ctag">PL</span>
+            <span class="ctag">FTIR</span>
+            <span class="ctag">Lasers</span>
+          </div>
+        </div>
+
+        <div class="area-card reveal" style="transition-delay:.2s">
+          <div class="card-icon">☀️</div>
+          <div class="card-title">Caracterização eletronica e estrutural de nanotubos de Carbono</div>
+          <p class="card-desc">textinho básico sobre a caracterização eletrônica e estrutural de nanotubos de carbono.</p>
+          <div class="card-tags">
+            <span class="ctag">TiO₂</span>
+            <span class="ctag">Perovskita</span>
+            <span class="ctag">DSSC</span>
+          </div>
+        </div>
+
+        <div class="area-card red-accent reveal" style="transition-delay:.05s">
+          <div class="card-icon">🧬</div>
+          <div class="card-title">Materiais 3D & Grafeno</div>
+          <p class="card-desc">problema da Camila.</p>
+          <div class="card-tags">
+            <span class="ctag">Grafeno</span>
+            <span class="ctag">DFT</span>
+            <span class="ctag">AFM</span>
+            <span class="ctag">CVD</span>
+          </div>
+        </div>
+
+        <div class="area-card red-accent reveal" style="transition-delay:.15s">
+          <div class="card-icon">🧲</div>
+          <div class="card-title">Borboletas de plastico biodegradável</div>
+          <p class="card-desc">Desenvolvimento de borboletas de plástico biodegradável para aplicações ambientais.</p>
+          <div class="card-tags">
+            <span class="ctag">GMR</span>
+            <span class="ctag">MFM</span>
+            <span class="ctag">VSM</span>
+            <span class="ctag">SQUID</span>
+          </div>
+        </div>
+
+        <div class="area-card red-accent reveal" style="transition-delay:.25s">
+          <div class="card-icon">💻</div>
+          <div class="card-title">Análise Computacional de planilhas</div>
+          <p class="card-desc">Problema do João e Renan.</p>
+          <div class="card-tags">
+            <span class="ctag">VASP</span>
+            <span class="ctag">MD</span>
+            <span class="ctag">DFT</span>
+            <span class="ctag">Python</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║          CONTATO            ║
+       ╚══════════════════════════════╝ -->
+  <section id="contato">
+    <div class="container">
+      <div class="contato-inner">
+
+        <div class="contato-text reveal">
+          <div class="section-label">Entre em Contato</div>
+          <h2 class="section-title" style="color:var(--white)">Vamos colaborar?</h2>
+          <p class="section-desc">
+            Seja para parcerias acadêmicas, projetos de extensão, iniciação científica ou colaborações 
+            industriais, estamos abertos ao diálogo. Fale conosco.
+          </p>
+          <div class="contato-info">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div class="info-text">
+                <strong>Endereço</strong>
+                <span>UFPA — Campus Abaetetuba, Pará, Brasil</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">✉️</div>
+              <div class="info-text">
+                <strong>E-mail</strong>
+                <span> <a href="mailto:lfcano@ufpa.br">lfcano@ufpa.br</a></span>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div class="info-text">
+                <strong>Telefone</strong>
+                <span>(91) 988736264</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contato-form reveal">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nome</label>
+              <input type="text" placeholder="Seu nome completo" />
+            </div>
+            <div class="form-group">
+              <label>E-mail</label>
+              <input type="email" placeholder="seu@email.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Assunto</label>
+            <select>
+              <option value="">Selecione...</option>
+              <option>Iniciação Científica</option>
+              <option>Parceria Acadêmica</option>
+              <option>Colaboração Industrial</option>
+              <option>Visita ao Laboratório</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Mensagem</label>
+            <textarea placeholder="Descreva sua proposta ou dúvida…"></textarea>
+          </div>
+          <button class="form-submit" onclick="submitForm(event)">Enviar Mensagem →</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════╗
+       ║           FOOTER            ║
+       ╚══════════════════════════════╝ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="nav-logo-main">LFA.<span>nano</span></span>
+            <span class="nav-logo-sub">UFPA · Campus Abaetetuba</span>
+          </div>
+          <p>Laboratórios de Física do Campus de Abaetetuba de Nanomateriais — pesquisa, ensino e inovação na Amazônia.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#pesquisas">Pesquisas</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Pesquisas</h4>
+          <ul>
+            <li><a href="#pesquisas">Nanopartículas</a></li>
+            <li><a href="#pesquisas">Física Quântica</a></li>
+            <li><a href="#pesquisas">Energia Solar</a></li>
+            <li><a href="#pesquisas">Grafeno</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Links Úteis</h4>
+          <ul>
+            <li><a href="https://www.ufpa.br" target="_blank">UFPA</a></li>
+            <li><a href="https://www.cnpq.br" target="_blank">CNPq</a></li>
+            <li><a href="https://www.capes.gov.br" target="_blank">CAPES</a></li>
+            <li><a href="https://lattes.cnpq.br" target="_blank">Lattes</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 LFCA.nano · UFPA Campus Abaetetuba. Todos os direitos reservados.</p>
+        <p>Feito com <span>♥</span> para a ciência amazônica</p>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
